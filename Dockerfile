@@ -4,13 +4,6 @@ MAINTAINER Software Shinobi "troy@softwareshinobi.online"
 
 ##########################################
 ##
-## Set build directory
-##
-
-
-
-##########################################
-##
 ## install pip deps
 ##
 
@@ -25,17 +18,9 @@ WORKDIR /docs
 
 COPY . . 
 
-##COPY mkdocs.yml             mkdocs.yml
-
-##COPY .custom-styling.css    custom-styling.css
-
-##COPY docs-content           docs-content
-
 ##########################################
 
 RUN mkdocs build
-
-RUN ls -lha
 
 ##########################################
 
