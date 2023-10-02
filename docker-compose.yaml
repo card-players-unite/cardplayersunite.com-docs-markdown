@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+
+    card-players-unite-docs:
+
+        container_name: card-players-unite-docs
+
+        image: softwareshinobi/card-players-unite-docs:latest
+
+        restart: always
+        
+        ports:
+
+            - "23080:80"
+            
+        networks:
+        
+            - card-players-unite-docs
+            
+networks:
+
+  card-players-unite-docs:
