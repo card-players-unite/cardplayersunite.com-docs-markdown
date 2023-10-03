@@ -1,0 +1,45 @@
+
+docs_dir: project-documentation
+
+site_name: Kompose
+
+nav:
+
+    - Home: 'index.md'   
+    
+    - Installation: 'developer-guides/installation-guide.md'
+
+    - Getting Started: 'developer-guides/getting-started-guide.md'
+    
+    - User Guide: 'developer-guides/user-guide.md'
+        
+    - Architecture: 'developer-guides/software-architecture-guide.md'
+
+    - Project Management: 'project-management/project-management-home.md'       
+
+theme:
+
+    ##
+    ## Find More Themes Here:
+    ##
+    ##     https://mkdocs.github.io/mkdocs-bootswatch/
+    ##
+    ## List of theme values:
+    ##
+    ##     mkdocs, readthedocs, material, cerulean, cosmo, 
+    ##     cyborg, darkly, flatly, journal, litera, lumen, lux,
+    ##     materia, minty, pulse, sandstone, simplex, slate, solar,
+    ##     spacelab, superhero, united, yeti 
+    ##
+        
+    name: journal
+    
+    ## 
+    ## you can alternate colors for the navigation header.
+    ##
+    ## Allowed values: primary (the default), dark, and light:
+    ##
+    
+    nav_style: primary
+
+extra_css: [extra.css]

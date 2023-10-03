@@ -1,6 +1,6 @@
 pipeline {
  
-    agent { node { label 'hosting' } }
+    agent { node { label 'rhea' } }
 
     stages {
                                      

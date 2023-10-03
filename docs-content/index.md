@@ -1,47 +1,57 @@
-# Kompose - Convert your Docker Compose file to Kubernetes or OpenShift
+# bringing together the nation's best card players in a tournament near you.
 
-An official Kubernetes project, located at github.com/kubernetes/kompose
-Go from Docker Compose to Kubernetes.
+Card Players Unite is a cloud agnostic data processing system built with Docker Containerization from the ground up.
 
-<img src="images-pictures/cover-image.png" alt= “” wiaadth="225" heighat="225">
+<img src="/images/missions/mission-card-players-unite.png" alt= “” wiaadth="225" heighat="225">
 
 Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
 
-``` bash 
-$ kompose convert -f docker-compose.yaml
+Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
 
-$ kubectl apply -f .
+Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
 
-$ kubectl get po
-NAME                            READY     STATUS              RESTARTS   AGE
-frontend-591253677-5t038        1/1       Running             0          10s
-redis-master-2410703502-9hshf   1/1       Running             0          10s
-redis-replica-4049176185-hr1lr  1/1       Running             0          10s
-```
+[Try Card Players Unite](https://www.cardplayersunite.online)
 
-[Installation Guide](developer-guides/installation-guide.md)
+## Cloud Infrastructure
 
-## Get started on Kubernetes immediately
+Containers on containers on containers. Well almost.
 
-So easy your human companion could do it too!
+The entirety of the Card Players Unite functionality is hosted in a private VPC in the Digital Ocean cloud.
 
-Why do cats (and developers) like Kompose?
+To learn more about the Card Players Unite cloud infrastructure and it's resources, see the link below.
 
-Developers love to simplify their development environment with Docker Compose.
+[Read About The Cloud Infrastructure](/Mission-Guides/Card-Players-Unite/01-cloud-infrastructure/)
 
-With Kompose, you can now push the same file to a production container orchestrator!
+## Software Architecture
 
-[Getting Started](developer-guides/getting-started-guide.md)
+I'll take "a bunch of widgets talking to each other, for 500 Alex".
 
-## Built for container engineers
+Card Players Unite hosts a number of software services to make the magic happen.
 
-Our conversions are not always 1-1 from Docker Compose to Kubernetes, but we will help get you 99% of the way there!
+From web servers, to APIs, to dashboards, etc.
 
-### The awesome features
+Learn more here...
 
-* Compatibility with multiple versions of Docker Compose
-* A conversion matrix that outlines all compatible values and versions
-* An in-depth user guide to use advanced features such as LoadBalancer, Service and TLS
-* Labels that provide the extra 1% needed to get to 1-1 conversion
+[Read About The Software Architecture](/Mission-Guides/Card-Players-Unite/software-architecture/)
 
-[User Guide](developer-guides/user-guide.md)
+## Source Code Repositories
+
+The source code repositories supporting Card Players Unite is hosted in a GitHub Organization.
+
+In this GitHub organization you will find source code for the servers, dashboards, and other tooling.
+
+[Go To GitHub Organization](https://github.com/card-players-unite)
+
+## Automated Build & Deploy
+
+The source code for Card Players Unite is built and deploy by a Dockerized Jenkins instance. This Jenkins instance polls the Card Players Unite GitHub organization on a timer.
+
+You can manage and the view the status of the Jenkins builds at the link below.
+
+[Go To Jenkins Build Jobs](https://build.softwareshinobi.online/job/card-players-unite/)
+
+## Preview Card Players Unite
+
+Car Players Unite has many components. If you don't know where to start, try the Tournament Site home.
+
+[Try Card Players Unite](https://www.cardplayersunite.online)
