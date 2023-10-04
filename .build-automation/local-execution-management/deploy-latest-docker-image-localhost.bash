@@ -14,9 +14,10 @@ source ./docker-image-repository.conf
 
 ##
 
-set +x
 
 set +e
+
+docker-compose down
 
 docker stop $repositoryName
 
