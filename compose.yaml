@@ -1,9 +1,17 @@
 version: "3"
+
 services:
-  webdoc:
-    image: titom73/mkdocs
-    volumes:
-      - ./:/docs
-    entrypoint: ""
-    command: ["sh", "-c", "pip install -r my/path/to/requirements.txt\
-        && mkdocs serve --dev-addr=0.0.0.0:8000"]
+
+    documentation-server:
+
+        container_name: documentation-server
+
+        image: titom73/mkdocs
+
+        volumes:
+
+            - ./:/docs
+
+        ports:
+
+            - 8000:8000
