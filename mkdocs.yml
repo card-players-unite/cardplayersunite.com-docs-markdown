@@ -5,13 +5,13 @@ site_name: Gregory's Documentation
 
 theme:
 
-##    palette:
+    palette:
         
-     ##   scheme: slate
+        scheme: slate
         
-   ##     primary: deep orange
+        primary: deep orange
         
- ##       accent: purple
+        accent: purple
         
     ##
     ## Find More Themes Here:
@@ -26,7 +26,7 @@ theme:
     ##     spacelab, superhero, united, yeti 
     ##
         
-    name: lux
+    name: material
     
     ## 
     ## you can alternate colors for the navigation header.
@@ -35,3 +35,4 @@ theme:
     ##
     
     nav_style: primary
+
