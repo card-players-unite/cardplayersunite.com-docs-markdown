@@ -3,7 +3,7 @@ services:
   webdoc:
     image: titom73/mkdocs
     volumes:
-      - ${PWD}:/docs
+      - ./:/docs
     entrypoint: ""
     command: ["sh", "-c", "pip install -r my/path/to/requirements.txt\
         && mkdocs serve --dev-addr=0.0.0.0:8000"]
