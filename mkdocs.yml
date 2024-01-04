@@ -5,13 +5,15 @@ site_name: Gregory's Documentation
 
 theme:
 
+    ## https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+
     palette:
         
         scheme: slate
         
-        primary: deep orange
+        primary: cyan
         
-        accent: purple
+     ##   accent: purple
         
     ##
     ## Find More Themes Here:
