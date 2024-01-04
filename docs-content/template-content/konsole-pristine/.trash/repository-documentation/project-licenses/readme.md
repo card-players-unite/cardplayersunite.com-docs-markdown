@@ -1,1 +1,0 @@
-# Project License Document Information
