@@ -1,17 +1,17 @@
 
-docs_dir: docs-content
+docs_dir: documentation
 
-site_name: custom docs server
+site_name: Gregory's Documentation
 
 theme:
 
-    palette:
+##    palette:
         
-        scheme: slate
+     ##   scheme: slate
         
-        primary: deep orange
+   ##     primary: deep orange
         
-        accent: purple
+ ##       accent: purple
         
     ##
     ## Find More Themes Here:
@@ -26,7 +26,7 @@ theme:
     ##     spacelab, superhero, united, yeti 
     ##
         
-    name: material
+    name: lux
     
     ## 
     ## you can alternate colors for the navigation header.
@@ -35,5 +35,3 @@ theme:
     ##
     
     nav_style: primary
-
-extra_css: [styling-custom-mkdocs.css]
