@@ -8,6 +8,8 @@ services:
 
         image: titom73/mkdocs
 
+        restart: always
+
         volumes:
 
             - ./:/docs
